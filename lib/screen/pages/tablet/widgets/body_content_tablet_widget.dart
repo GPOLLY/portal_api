@@ -323,17 +323,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                           fontWeight: FontWeight.bold,
                           color: Colors.black),
                     ),
-                    // Text(
-                    //   "Service",
-                    //   style: TextStyle(color: Colors.grey[600], fontSize: 14),
-                    // ),
-                    // Text(
-                    //   "Flutter Development",
-                    //   style: TextStyle(
-                    //     fontSize: 16,
-                    //     color: Colors.black,
-                    //   ),
-                    // ),
+
                   ],
                 ),
                 Row(
@@ -342,25 +332,13 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // Text("Date",
-                        //     style: TextStyle(
-                        //         color: Colors.grey[600], fontSize: 14)),
-                        // Text(
-                        //   _data[index].date,
-                        //   style: TextStyle(fontSize: 16),
-                        // )
+
                       ],
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // Text("Time",
-                        //     style: TextStyle(
-                        //         color: Colors.grey[600], fontSize: 14)),
-                        // Text(
-                        //   _data[index].time,
-                        //   style: TextStyle(fontSize: 16),
-                        // )
+
                       ],
                     ),
                   ],
@@ -395,21 +373,9 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Text(
-                    //   "Hello,",
-                    //   style: TextStyle(fontSize: 18),
-                    // ),
-                    // SizedBox(height: 5,),
-                    // Text(
-                    //   "Amir Khan!",
-                    //   style:
-                    //   TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    // ),
+
                     SizedBox(height: 5,),
-                    // Text(
-                    //   "Lorem Ipsum is simply dummy text.",
-                    //   textAlign: TextAlign.justify,
-                    // )
+
                   ],
                 ),
               ),
@@ -436,17 +402,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                     Radius.circular(30),
                   ),
                 ),
-                // child: TextField(
-                //   decoration: InputDecoration(
-                //     hintText: "Url",
-                //     hintStyle: TextStyle(fontSize: 16),
-                //     border: InputBorder.none,
-                //     suffixIcon: Icon(
-                //       Icons.copy,
-                //       size: 18,
-                //     ),
-                //   ),
-                // ),
+
               ),
               Container(
                 height: 35,
@@ -458,10 +414,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                     Radius.circular(30),
                   ),
                 ),
-                // child: Text(
-                //   "Edit Link",
-                //   style: TextStyle(fontSize: 12),
-                // ),
+
               ),
             ],
           ),
@@ -485,27 +438,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // Column(
-          //   crossAxisAlignment: CrossAxisAlignment.start,
-          //   children: [
-          //     Text(
-          //       "Upgrade\nto PRO",
-          //       style: TextStyle(
-          //           fontSize: 18,
-          //           color: Colors.white,
-          //           fontWeight: FontWeight.bold),
-          //     ),
-          //     Text(
-          //       "For more Profile Control",
-          //       style: TextStyle(color: Colors.white),
-          //     ),
-          //   ],
-          // ),
-          // Container(
-          //   height: 50,
-          //   width: 50,
-          //   child: Image.asset("assets/pro.png"),
-          // )
+
         ],
       ),
     );
@@ -518,28 +451,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            // children: [
-            //   // Text(
-            //   //   "Reminders",
-            //   //   style: TextStyle(
-            //   //     fontSize: 18,
-            //   //     color: Colors.black,
-            //   //   ),
-            //   // ),
-            //   Row(
-            //     children: [
-            //       Text(
-            //         "View All",
-            //         style: TextStyle(color: Colors.orange),
-            //       ),
-            //       Icon(
-            //         Icons.arrow_forward_ios,
-            //         size: 15,
-            //         color: Colors.orange,
-            //       )
-            //     ],
-            //   ),
-            // ],
+
           ),
           SizedBox(height: 15,),
           SingleChildScrollView(
@@ -549,25 +461,19 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                 _singleButton(
                     title: "",
                     description: "",
-                    // icon: Icons.announcement_outlined,
-                    // iconColor: Colors.red[600],
-                    // boxColor: Colors.red[100]
+
                 ),
                 SizedBox(height: 15),
                 _singleButton(
                     title: "",
                     description: "",
-                    // icon: Icons.announcement_outlined,
-                    // iconColor: Colors.yellow[600],
-                    // boxColor: Colors.yellow[100]
+
                 ),
                 SizedBox(height: 15,),
                 _singleButton(
                     title: "",
                     description: "",
-                    // icon: Icons.announcement_outlined,
-                    // iconColor: Colors.red[600],
-                    // boxColor: Colors.red[100]
+
                 ),
               ],
             ),

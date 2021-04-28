@@ -130,28 +130,9 @@ class MobileScreen extends StatelessWidget {
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      // children: [
-                      //   Text("Date",
-                      //       style: TextStyle(
-                      //           color: Colors.grey[600], fontSize: 12)),
-                      //   Text(
-                      //     _data[index].date,
-                      //     style: TextStyle(fontSize: 12),
-                      //   )
-                      // ],
+
                     ),
-                    // Column(
-                    //   crossAxisAlignment: CrossAxisAlignment.start,
-                    //   children: [
-                    //     Text("Time",
-                    //         style: TextStyle(
-                    //             color: Colors.grey[600], fontSize: 12)),
-                    //     Text(
-                    //       _data[index].time,
-                    //       style: TextStyle(fontSize: 12),
-                    //     )
-                    //   ],
-                    // ),
+
                   ],
                 ),
                 Column(

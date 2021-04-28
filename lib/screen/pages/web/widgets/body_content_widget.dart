@@ -60,18 +60,7 @@ class _BodyContentWidgetState extends State<BodyContentWidget> {
               ),
             ],
           ),
-          // Container(
-          //   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-          //   decoration: BoxDecoration(
-          //       color: Colors.indigo,
-          //       borderRadius: BorderRadius.all(Radius.circular(8))),
-          //   child: Text(
-          //     "Customise Blocks",
-          //     style: TextStyle(
-          //       color: Colors.white,
-          //     ),
-          //   ),
-          // )
+
         ],
       ),
     );
@@ -366,28 +355,9 @@ class _BodyContentWidgetState extends State<BodyContentWidget> {
                     children: [
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        // children: [
-                        //   Text("Date",
-                        //       style: TextStyle(
-                        //           color: Colors.grey[600], fontSize: 14)),
-                        //   Text(
-                        //     _data[index].date,
-                        //     style: TextStyle(fontSize: 16),
-                        //   )
-                        // ],
+
                       ),
-                      // Column(
-                      //   crossAxisAlignment: CrossAxisAlignment.start,
-                      //   children: [
-                      //     Text("Time",
-                      //         style: TextStyle(
-                      //             color: Colors.grey[600], fontSize: 14)),
-                      //     Text(
-                      //       _data[index].time,
-                      //       style: TextStyle(fontSize: 16),
-                      //     )
-                      //   ],
-                      // ),
+
                     ],
                   ),
                   Row(
