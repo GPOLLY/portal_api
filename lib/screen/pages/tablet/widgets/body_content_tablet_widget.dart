@@ -55,10 +55,10 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
               SizedBox(
                 height: 5,
               ),
-              Text(
-                "Welcome Back!",
-                style: TextStyle(fontSize: 18),
-              ),
+              // Text(
+              //   "Welcome",
+              //   style: TextStyle(fontSize: 18),
+              // ),
             ],
           ),
           Container(
@@ -67,7 +67,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                 color: Colors.indigo,
                 borderRadius: BorderRadius.all(Radius.circular(8))),
             child: Text(
-              "Customise Blocks",
+              "Welcome George",
               style: TextStyle(
                 color: Colors.white,
               ),
@@ -107,14 +107,14 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             _singleItemQuickStats(
-              title: "Total Bookings",
-              value: "28,345",
+              title: "Member Registration",
+              value: "",
               width: widget.sizingInformation.screenSize.width / 2.4,
               icon: null,
             ),
             _singleItemQuickStats(
-                title: "Pending Approval",
-                value: "180",
+                title: "Loan Application",
+                value: "",
                 icon: null,
                 width: widget.sizingInformation.screenSize.width / 2.4,
                 textColor: Colors.red),
@@ -127,15 +127,13 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             _singleItemQuickStats(
-                title: "New Clients This Month",
-                value: "810",
-                icon: Icons.arrow_upward,
-                iconColor: Colors.green,
+                title: "View Statement",
+                value: "",
+
                 width: widget.sizingInformation.screenSize.width / 2.4),
             _singleItemQuickStats(
-                title: "Returning Clients",
-                value: "20%",
-                icon: Icons.arrow_downward,
+                title: "Account Profile",
+                value: "",
                 width: widget.sizingInformation.screenSize.width / 2.4,
                 iconColor: Colors.red),
           ],
@@ -222,7 +220,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
               });
             },
             child: _singleRowButton(
-              title: "Bookings",
+              title: "Member Registration",
               textColor:
                   _rowCurrentBtnIndex == 0 ? Colors.black : Colors.grey[500],
               borderColor: _rowCurrentBtnIndex == 0
@@ -237,7 +235,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
               });
             },
             child: _singleRowButton(
-              title: "Enquiries",
+              title: "Loan Application",
               textColor:
                   _rowCurrentBtnIndex == 1 ? Colors.black : Colors.grey[500],
               borderColor: _rowCurrentBtnIndex == 1
@@ -252,7 +250,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
               });
             },
             child: _singleRowButton(
-              title: "My Service",
+              title: "My Account",
               textColor:
                   _rowCurrentBtnIndex == 2 ? Colors.black : Colors.grey[500],
               borderColor: _rowCurrentBtnIndex == 2
@@ -325,17 +323,17 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                           fontWeight: FontWeight.bold,
                           color: Colors.black),
                     ),
-                    Text(
-                      "Service",
-                      style: TextStyle(color: Colors.grey[600], fontSize: 14),
-                    ),
-                    Text(
-                      "Flutter Development",
-                      style: TextStyle(
-                        fontSize: 16,
-                        color: Colors.black,
-                      ),
-                    ),
+                    // Text(
+                    //   "Service",
+                    //   style: TextStyle(color: Colors.grey[600], fontSize: 14),
+                    // ),
+                    // Text(
+                    //   "Flutter Development",
+                    //   style: TextStyle(
+                    //     fontSize: 16,
+                    //     color: Colors.black,
+                    //   ),
+                    // ),
                   ],
                 ),
                 Row(
@@ -344,25 +342,25 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Date",
-                            style: TextStyle(
-                                color: Colors.grey[600], fontSize: 14)),
-                        Text(
-                          _data[index].date,
-                          style: TextStyle(fontSize: 16),
-                        )
+                        // Text("Date",
+                        //     style: TextStyle(
+                        //         color: Colors.grey[600], fontSize: 14)),
+                        // Text(
+                        //   _data[index].date,
+                        //   style: TextStyle(fontSize: 16),
+                        // )
                       ],
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Time",
-                            style: TextStyle(
-                                color: Colors.grey[600], fontSize: 14)),
-                        Text(
-                          _data[index].time,
-                          style: TextStyle(fontSize: 16),
-                        )
+                        // Text("Time",
+                        //     style: TextStyle(
+                        //         color: Colors.grey[600], fontSize: 14)),
+                        // Text(
+                        //   _data[index].time,
+                        //   style: TextStyle(fontSize: 16),
+                        // )
                       ],
                     ),
                   ],
@@ -371,7 +369,7 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Accept Booking",
+                      "Click Here",
                       style: TextStyle(fontSize: 18, color: Colors.indigo),
                     ),
                     Text("Decline"),
@@ -397,21 +395,21 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      "Hello,",
-                      style: TextStyle(fontSize: 18),
-                    ),
+                    // Text(
+                    //   "Hello,",
+                    //   style: TextStyle(fontSize: 18),
+                    // ),
+                    // SizedBox(height: 5,),
+                    // Text(
+                    //   "Amir Khan!",
+                    //   style:
+                    //   TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    // ),
                     SizedBox(height: 5,),
-                    Text(
-                      "Amir Khan!",
-                      style:
-                      TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    ),
-                    SizedBox(height: 5,),
-                    Text(
-                      "Lorem Ipsum is simply dummy text.",
-                      textAlign: TextAlign.justify,
-                    )
+                    // Text(
+                    //   "Lorem Ipsum is simply dummy text.",
+                    //   textAlign: TextAlign.justify,
+                    // )
                   ],
                 ),
               ),
@@ -438,17 +436,17 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                     Radius.circular(30),
                   ),
                 ),
-                child: TextField(
-                  decoration: InputDecoration(
-                    hintText: "Url",
-                    hintStyle: TextStyle(fontSize: 16),
-                    border: InputBorder.none,
-                    suffixIcon: Icon(
-                      Icons.copy,
-                      size: 18,
-                    ),
-                  ),
-                ),
+                // child: TextField(
+                //   decoration: InputDecoration(
+                //     hintText: "Url",
+                //     hintStyle: TextStyle(fontSize: 16),
+                //     border: InputBorder.none,
+                //     suffixIcon: Icon(
+                //       Icons.copy,
+                //       size: 18,
+                //     ),
+                //   ),
+                // ),
               ),
               Container(
                 height: 35,
@@ -460,10 +458,10 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
                     Radius.circular(30),
                   ),
                 ),
-                child: Text(
-                  "Edit Link",
-                  style: TextStyle(fontSize: 12),
-                ),
+                // child: Text(
+                //   "Edit Link",
+                //   style: TextStyle(fontSize: 12),
+                // ),
               ),
             ],
           ),
@@ -479,35 +477,35 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
     return Container(
       margin: EdgeInsets.only(top: 40),
       padding: EdgeInsets.symmetric(horizontal: 12, vertical: 20),
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(
-            Radius.circular(8),
-          ),
-          color: Colors.indigo),
+      // decoration: BoxDecoration(
+      //     borderRadius: BorderRadius.all(
+      //       Radius.circular(8),
+      //     ),
+      //     color: Colors.indigo),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                "Upgrade\nto PRO",
-                style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
-              ),
-              Text(
-                "For more Profile Control",
-                style: TextStyle(color: Colors.white),
-              ),
-            ],
-          ),
-          Container(
-            height: 50,
-            width: 50,
-            child: Image.asset("assets/pro.png"),
-          )
+          // Column(
+          //   crossAxisAlignment: CrossAxisAlignment.start,
+          //   children: [
+          //     Text(
+          //       "Upgrade\nto PRO",
+          //       style: TextStyle(
+          //           fontSize: 18,
+          //           color: Colors.white,
+          //           fontWeight: FontWeight.bold),
+          //     ),
+          //     Text(
+          //       "For more Profile Control",
+          //       style: TextStyle(color: Colors.white),
+          //     ),
+          //   ],
+          // ),
+          // Container(
+          //   height: 50,
+          //   width: 50,
+          //   child: Image.asset("assets/pro.png"),
+          // )
         ],
       ),
     );
@@ -520,28 +518,28 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                "Reminders",
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.black,
-                ),
-              ),
-              Row(
-                children: [
-                  Text(
-                    "View All",
-                    style: TextStyle(color: Colors.orange),
-                  ),
-                  Icon(
-                    Icons.arrow_forward_ios,
-                    size: 15,
-                    color: Colors.orange,
-                  )
-                ],
-              ),
-            ],
+            // children: [
+            //   // Text(
+            //   //   "Reminders",
+            //   //   style: TextStyle(
+            //   //     fontSize: 18,
+            //   //     color: Colors.black,
+            //   //   ),
+            //   // ),
+            //   Row(
+            //     children: [
+            //       Text(
+            //         "View All",
+            //         style: TextStyle(color: Colors.orange),
+            //       ),
+            //       Icon(
+            //         Icons.arrow_forward_ios,
+            //         size: 15,
+            //         color: Colors.orange,
+            //       )
+            //     ],
+            //   ),
+            // ],
           ),
           SizedBox(height: 15,),
           SingleChildScrollView(
@@ -549,27 +547,27 @@ class _BodyContentTabletWidgetState extends State<BodyContentTabletWidget> {
             child: Row(
               children: [
                 _singleButton(
-                    title: "Booking Reminder",
-                    description: "Lorem Ipsum is simply dummy text",
-                    icon: Icons.announcement_outlined,
-                    iconColor: Colors.red[600],
-                    boxColor: Colors.red[100]
+                    title: "",
+                    description: "",
+                    // icon: Icons.announcement_outlined,
+                    // iconColor: Colors.red[600],
+                    // boxColor: Colors.red[100]
                 ),
                 SizedBox(height: 15),
                 _singleButton(
-                    title: "New Message",
-                    description: "Lorem Ipsum is simply dummy text",
-                    icon: Icons.announcement_outlined,
-                    iconColor: Colors.yellow[600],
-                    boxColor: Colors.yellow[100]
+                    title: "",
+                    description: "",
+                    // icon: Icons.announcement_outlined,
+                    // iconColor: Colors.yellow[600],
+                    // boxColor: Colors.yellow[100]
                 ),
                 SizedBox(height: 15,),
                 _singleButton(
-                    title: "Upcoming Booking",
-                    description: "Lorem Ipsum is simply dummy text",
-                    icon: Icons.announcement_outlined,
-                    iconColor: Colors.red[600],
-                    boxColor: Colors.red[100]
+                    title: "",
+                    description: "",
+                    // icon: Icons.announcement_outlined,
+                    // iconColor: Colors.red[600],
+                    // boxColor: Colors.red[100]
                 ),
               ],
             ),
