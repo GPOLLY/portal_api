@@ -161,5 +161,8 @@ class _WebVerticalNavWidgetState extends State<WebVerticalNavWidget> {
 
   Widget _logoutButton() {
     return Icon(Icons.exit_to_app);
+
   }
 }
+
+
