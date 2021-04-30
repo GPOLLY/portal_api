@@ -22,7 +22,7 @@ class DrawerMobile extends StatelessWidget {
           Container(
             width: 80,
             height: 80,
-            child: Image.asset("assets/logo.png"),
+            child: Image.asset("log.jpeg"),
           ),
           Container(
             child: Row(
