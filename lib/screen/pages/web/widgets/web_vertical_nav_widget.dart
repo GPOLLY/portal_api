@@ -40,7 +40,7 @@ class _WebVerticalNavWidgetState extends State<WebVerticalNavWidget> {
     return Container(
       width: 45,
       height: 45,
-      child: Image.asset("assets/logo.png"),
+      child: Image.asset("log.jpeg"),
     );
   }
 

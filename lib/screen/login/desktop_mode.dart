@@ -27,7 +27,7 @@ class _DesktopModeState extends State<DesktopMode> {
                               child: Container(
                                   child: Align(
                                     alignment: Alignment.center,
-                                    child: Image.asset('assets/login-image.png', height: heightSize * 0.5, width: widthSize * 0.5, semanticLabel: 'test'),
+                                    child: Image.asset('background.jpeg', height: heightSize * 2.5, width: widthSize * 0.5, semanticLabel: 'test'),
                                   )
                               )
                           ),
@@ -39,7 +39,7 @@ class _DesktopModeState extends State<DesktopMode> {
                                   child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Image.asset('assets/login-form.png', height: heightSize * 0.2, width: widthSize * 0.15),
+                                        Image.asset('login.jpeg', height: heightSize * 0.2, width: widthSize * 0.15),
                                         SizedBox(height: 20),
                                         LoginForm(
                                             0, 0.009, 16, 0.04, 0.01, 0.04,

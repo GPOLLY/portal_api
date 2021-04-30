@@ -24,7 +24,7 @@ class _MobileModeState extends State<MobileMode> {
                 ),
                 child: Column(
                     children: [
-                      Image.asset('assets/login-form.png', height: heightSize * 0.3, width: widthSize * 0.6),
+                      Image.asset('login.jpeg', height: heightSize * 0.3, width: widthSize * 0.6),
                       SingleChildScrollView(
                           child: LoginForm(
                               0.007,
